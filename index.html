@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blacklable</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css
+    "
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js
+    "
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row bg-dark">
+        <div class="col-12 col-md-6 bg-dark order-1">
+          <div id="aniMation">
+            <img
+              src="https://r.mprd.se/media/images/55810-Ice_Climber_(USA,_Europe)-10.jpg"
+              alt=""
+              class="bottom"
+            />
+            <img
+              src="https://www.retroplace.com/pics/nes/packshots/136692--ice-climber.png"
+              alt=""
+              class="top"
+            />
+          </div>
+        </div>
+        <div class="col-12 col-md-6 order-md-2">
+          <div style="width: 640%; height: 100%; max-width: 100%">
+            <div id="game"></div>
+          </div>
+          <script type="text/javascript">
+            EJS_player = "#game";
+            EJS_biosUrl = ""; // Url to Famicom Disk System bios
+            EJS_gameUrl = "roms/Ice Climber (USA, Europe).nes"; // Url to Game rom
+            EJS_core = "nes"; // Optional core: mesen, nestopia
+            EJS_lightgun = false; // Lightgun
+          </script>
+          <script src="https://www.emulatorjs.com/loader.js"></script>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

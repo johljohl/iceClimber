@@ -1,0 +1,27 @@
+* {
+}
+#aniMation {
+  position: relative;
+  height: 85vh;
+
+  margin: 0;
+}
+#aniMation img {
+  position: absolute;
+  -webkit-transition: opacity 3s ease-in-out;
+  transition: 3s;
+  width: 100%;
+  object-fit: cover;
+}
+#aniMation img.top:hover {
+  opacity: 0;
+}
+img {
+  height: 70vh;
+}
+
+.game iframe {
+  height: 69vh;
+  width: 65vh;
+  border: 15px solid red;
+}
